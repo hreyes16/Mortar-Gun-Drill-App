@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2.5em;
+    background-color: rgb(26, 19, 19);
+    background-position: center;
+    
+}
+
+.app-container{
+    width: 500px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1.5em;
+  
+}
+
+ .data-container{
+     display: block;
+     background-color: none;
+ }
+
+button{
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    width: 5em;
+}
+
+button:hover{
+    color: rgb(255, 255, 255);
+    font-weight: 50;
+    background-color: rgb(231, 132, 18);
+    transition: 0.5s;
+}
+
+
+.small-data-deflection, .small-data-elevation{
+    margin-top: 2.9rem;
+    width: 100px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    background-color: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius:10px;
+}
+    
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff9307;
+    font-size: 50px;
+}
+
+.reset{
+    margin-bottom: 10px;
+}
